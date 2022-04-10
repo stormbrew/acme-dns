@@ -1,0 +1,17 @@
+[package]
+name = "acme-dns"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+async-trait = { version = "*", default-features = false }
+acme2 = { version = "*", default-features = false }
+trust-dns-server = { version = "*", default-features = false }
+trust-dns-client = { version = "*", default-features = false }
+trust-dns-proto = { version = "*", default-features = false }
+eyre = { version = "*", default-features = false, features = ["auto-install"] }
+tap = { version = "*", default-features = false }
+openssl = { version = "*", default-features = false, features = ["vendored"] }
+tokio = { version = "*", default-features = false, features = ["macros"] }
