@@ -11,6 +11,7 @@ acme2 = { version = "*", default-features = false }
 trust-dns-server = { version = "*", default-features = false }
 trust-dns-client = { version = "*", default-features = false }
 trust-dns-proto = { version = "*", default-features = false }
+argh = { version = "*", default-features = false }
 eyre = { version = "*", default-features = false, features = ["auto-install"] }
 tap = { version = "*", default-features = false }
 openssl = { version = "*", default-features = false, features = ["vendored"] }
